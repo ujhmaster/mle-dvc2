@@ -63,14 +63,10 @@ stages:
         - f1
         - roc_auc
         n_jobs: -1
-        n_splits: 5
+        n_splits: 6
         target_col: target
     outs:
     - path: cv_results/cv_res.json
       hash: md5
-      md5: 6845202ecac5d59fac3db4ca11aa6d90
-      size: 77
-      cloud:
-        my_storage:
-          etag: 6845202ecac5d59fac3db4ca11aa6d90
-          version_id: 00061F9E1F249751
+      md5: cf24e0600b4db55acffb0ceae90780a3
+      size: 78
